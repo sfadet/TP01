@@ -1,0 +1,22 @@
+* {padding: 0; margin:0}
+html{background-color: #7d9b9a; font-family: Tahoma;}
+#mainContent{background-color: white; width: 1024px;margin: 0 auto; padding: 0 10px;}
+nav {margin: 0 auto;margin-bottom: 30px; border: solid 2px #bb2929; border-width: 2px 0;}
+nav ul{list-style: none; padding: 15px 0;}
+nav ul li {display: inline;}
+nav ul li a {margin: 5px 30px; font: bold 20px Tahoma; color: brown; text-decoration: none;}
+nav ul li a:hover {color: #d32020;}
+h1 {margin: 10px 0 20px 0; padding-left: 30px;color: #490909;}
+h2 {margin: 5px 0 10px 0; padding-left: 15px;color: #490909;}
+
+/* Content */
+article img {margin: auto; display: block;}
+
+article {font:normal 14px Tahoma;}
+article p {padding-bottom: 10px;}
+article ul {list-style: none; margin-bottom: 20px;}
+article #details {padding-bottom: 20px;}
+article #discographie{float: left;width:480px;}
+article #membres{float: right;width:480px;}
+
+hr {clear: both; margin-top: 20px;}
