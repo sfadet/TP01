@@ -9,9 +9,15 @@ nav ul li a:hover {color: #d32020;}
 h1 {margin: 10px 0 20px 0; padding-left: 30px;color: #490909;}
 h2 {margin: 5px 0 10px 0; padding-left: 15px;color: #490909;}
 
+/* header */
+#profil {font-size: 12px;text-align: center;}
+#profil img {width: 50px; height: 50px;}
+
+/* footer */
+footer {font-size: 12px;}
+
 /* Content */
 article img {margin: auto; display: block;}
-
 article {font:normal 14px Tahoma;}
 article p {padding-bottom: 10px;}
 article ul {list-style: none; margin-bottom: 20px;}
@@ -20,3 +26,10 @@ article #discographie{float: left;width:480px;}
 article #membres{float: right;width:480px;}
 
 hr {clear: both; margin-top: 20px;}
+
+/* formulaire */
+form div {padding: 10px 5px;}
+#abonnement span {width:250px;display: inline-block;text-align: center;}
+#abonnement span.bold {font-weight:bold}
+
+

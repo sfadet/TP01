@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Music</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="mainContent">
+  <header>
+    <div>
+      <img src="images/mymusic_logo.png" alt="logo my music">
+    </div>
+    <div>
+      <h1>My music</h1>
+    </div>
+    <div id="profil">
+      <img src="images/avatar/avatar-tux_dark_maul.jpg" alt="logo eni">
+      <p>ENI, connecté</p>
+      <p><a href="account.html">Mon compte</a> | <a href="logOut.html">Déconnexion</a></p>
+    </div>
+  </header>
+  <main>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Formulaire</a></li>
+        <li><a href="#">Jeux</a></li>
+        <li><a href="#">Musiques</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h2>Mon compte</h2>
+
+      <form action="" method="post">
+        <p>Vos informations personnelles</p>
+        <div>
+          <label for="nom">Nom :</label>
+          <input type="text" name="nom" id="nom" placeholder="Votre nom ?">
+        </div>
+        <div>
+          <label for="dateNaissance">Date de naissance :</label>
+          <input type="date" name="dateNaissance" id="dateNaissance" size="20">
+        </div>
+        <div>
+          <label for="prenom">Prénom :</label>
+          <input type="text" name="prenom" id="prenom" placeholder="Votre prénom ?">
+        </div>
+        <div>
+          <label for="groupePrefere">Groupe préféré :</label>
+          <select name="groupePrefere" id="groupePrefere">
+            <optgroup label="Métal">
+              <option value="Epica">Epica</option>
+              <option value="ACDC" selected="selected">AC/DC</option>
+              <option value="IronMaiden">Iron Maiden</option>
+              <option value="BlackSabbath">Black Sabbath</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label for="email">Email :</label>
+          <input type="email" name="email" id="email" placeholder="Votre Email ?">
+        </div>
+        <div>
+          <label for="telephone">Téléphone :</label>
+          <input type="tel" name="telephone" id="telephone" placeholder="Votre téléphone" pattern="^0[6-7][0-9]{8}$">
+        </div>
+        <div>
+          <label for="motDePasse">Mot de passe :</label>
+          <input type="password" name="motDePasse" id="motDePasse">
+        </div>
+        <div>
+          <label for="motDePasseV">Répéter le mot de passe :</label>
+          <input type="password" name="motDePassev" id="motDePasseV">
+        </div>
+
+        <div id="abonnement">
+          <p>Votre formule d'abonnement</p>
+          <p>
+            <span>&nbsp;</span>
+            <span class="bold">
+              <input type="radio" name="abonnement" id="premiumplus"/>
+              <label for="premiumplus">Premium+</label>
+            </span>
+            <span class="bold">
+              <input type="radio" name="abonnement" id="premium"/>
+              <label for="premium">Premium</label>
+            </span>
+            <span class="bold">
+              <input type="radio" name="abonnement" id="discovery"/>
+              <label for="discovery">Discovery+</label>
+            </span>
+          </p>
+          <p>
+            <span class="bold">Accès web</span>
+            <span><img src="images/icon-ok-32x32.png"></span>
+            <span><img src="images/icon-ok-32x32.png"></span>
+            <span><img src="images/icon-ok-32x32.png"></span>
+          </p>
+          <p>
+            <span class="bold">Accès mobile</span>
+            <span><img src="images/icon-ok-32x32.png"></span>
+            <span><img src="images/icon-ok-32x32.png"></span>
+            <span><img src="images/icon-not-ok-32x32.png"></span>
+          </p>
+          <p>
+            <span class="bold">Accès illimité</span>
+            <span><img src="images/icon-ok-32x32.png"></span>
+            <span><img src="images/icon-not-ok-32x32.png"></span>
+            <span><img src="images/icon-not-ok-32x32.png"></span>
+          </p>
+          <p>
+            <span class="bold">Tarifs</span>
+            <span>11,99€/mois</span>
+            <span>5,99€/mois</span>
+            <span>Gratuit 1 mois</span>
+          </p>
+          <p>
+            <span></span>
+            <input type="checkbox" name="newsletter" id="newsletter">Recevoir nos newsletters
+            <input type="checkbox" name="newsletter" id="newsletterP">Recevoir les newsletters de nos partenaires
+          </p>
+          <p><button>Annuler</button>&nbsp;<input type="submit" value="Valider" /></p>
+        </div>
+      </form>
+    </article>
+    <hr>
+  </main>
+  <footer>
+    <a href="test.html">ENI ECOLE</a><br>
+    <a href="test.html">Copyright &copy; ENI ECOLE Informatique</a>
+  </footer>
+</div>
+</body>
+</html>
